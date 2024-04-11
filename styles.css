@@ -1,0 +1,41 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+}
+
+#test-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%; /* Adjust the width as needed */
+    height: 100%; /* Ensure the container takes the full height of the viewport */
+    padding: 20px;
+    background-color: yellow; /* Yellow background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#marker-form {
+    width: 100%; /* Make the form take the full width of its container */
+}
+
+.mapboxgl-popup-content {
+    background-color: #2ecc71; /* Green background color */
+    color: #ffffff; /* White text color */
+    font-size: 12px; /* Font size */
+    padding: 4px; /* Padding */
+    border-radius: 2px; /* Border radius */
+}
+
